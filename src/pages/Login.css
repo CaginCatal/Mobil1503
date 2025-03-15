@@ -1,0 +1,32 @@
+/* Login Formu Düzeni */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Ion-item'lar arasına boşluk ekler */
+  .login-form ion-item {
+    margin-bottom: 10px;
+  }
+  
+  /* Butonlar arasına boşluk ekler */
+  .login-form ion-button {
+    margin-top: 20px;
+  }
+  
+  /* Göz simgesinin hizalanması ve tıklanabilir olması */
+  .login-form ion-item .ion-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Şifre kutusunun sağında göz simgesinin görünümü */
+  .login-form ion-item {
+    position: relative;
+  }
+  
+  
